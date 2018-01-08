@@ -1,0 +1,3 @@
+<div fxLayout="row" *ngIf="buttons">
+  <app-button *ngFor="let button of buttons" disabled="{{button.disabled}}" buttonColor="{{button.color}}" buttonText="{{button.text}}" buttonIcon="{{button.icon}}"></app-button>
+</div>
