@@ -1,6 +1,4 @@
 import { storiesOf } from '@storybook/angular';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
 import {AppModule} from "../src/app/app.module";
 
 
