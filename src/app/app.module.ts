@@ -11,6 +11,7 @@ import {ButtonComponent} from './button/button.component';
 import {ButtonGroupComponent} from './button-group/button-group.component';
 import {IconButtonComponent} from './icon-button/icon-button.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     ButtonComponent,
     ButtonGroupComponent,
     IconButtonComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    HeaderComponent
   ],
   imports: [
     FormsModule,
